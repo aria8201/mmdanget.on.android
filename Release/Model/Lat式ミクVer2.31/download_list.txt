@@ -1,0 +1,13 @@
+Lat式ミク Ver2.31
+
+・ダウンロードURL
+https://bowlroll.net/file/30199
+
+・ダウンロードしたLat式ミクVer2.31.zipの中身をRelease\Model\Lat式ミクVer2.31に配置
+
+・日本語のpmdファイルを修正
+例：
+Lat式ミクVer2.31_White.pmd
+↓
+Lat_mikuVer2.31_White.pmd
+
