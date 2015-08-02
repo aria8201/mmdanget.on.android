@@ -8,4 +8,4 @@ MMDAgent on Androicd
 
 また、Releaseディレクトリ内にサンプルシナリオを配置しています。
 シナリオ、音響モデル、モーションデータ、Juliusの設定をカスタマイズしています。  
-※サンプルシナリオではLat式ミクを使用しています。Lat式ミクのMMDモデルはRelease/Model/Lat式ミクVer2.31/download_list.txtを参考にダウンロードして下さい。
+※サンプルシナリオではLat式ミクを使用しています。Lat式ミクのMMDモデルはRelease/Model/Lat_miku2.31/download_list.txtを参考にダウンロードして下さい。
