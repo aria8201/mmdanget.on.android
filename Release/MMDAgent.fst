@@ -1,6 +1,6 @@
 #initialize
 0	11	<eps>			CAMERA|0,16,-45|0,0,0|80.0|16.0
-11	12	<eps>			MODEL_ADD|model|Model\Lat_miku2.31\LatŽ®ƒ~ƒNVer2.31_White.pmd|0.0,0.0,0.0|0.0,0.0,0.0|ON
+11	12	<eps>			MODEL_ADD|model|Model\Lat_miku2.31\Lat_mikuVer2.31_White.pmd|0.0,0.0,0.0|0.0,0.0,0.0|ON
 12	13	<eps>			STAGE|Stage\building2\floor.bmp,Stage\building2\background.bmp
 13	1	<eps>			MOTION_ADD|model|base|Motion\miku\miku_wait.vmd|FULL|LOOP|ON|OFF
 
