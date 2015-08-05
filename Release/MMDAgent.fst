@@ -25,6 +25,17 @@
 51	52	<eps>					MOTION_ADD|model|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
 52	1	MOTION_EVENT_DELETE|model|action	<eps>
 
+#tv on
+1	61	RECOG_EVENT_STOP|テレビ,オン		REMOCON|1
+61	62	REMOCON_EVENT_END|model			SYNTH_START|model|miku_voice_lat|テレビをつけます。
+62	63	<eps>					MOTION_ADD|model|action|Motion\miku\point_left.vmd|PART|ONCE
+63	1	MOTION_EVENT_DELETE|model|action	<eps>
+
+#tv off
+1	71	RECOG_EVENT_STOP|テレビ,オフ		REMOCON|1
+71	72	REMOCON_EVENT_END|model			SYNTH_START|model|miku_voice_lat|テレビをけします。
+72	73	<eps>					MOTION_ADD|model|action|Motion\miku\point_left.vmd|PART|ONCE
+73	1	MOTION_EVENT_DELETE|model|action	<eps>
 
 # Model
 # MODEL_ADD|(model alias)|(model file name)|(x position),(y position),(z position)|(x rotation),(y rotation),(z rotation)|(ON or OFF for cartoon)|(parent model alias)|(parent bone name)
@@ -119,3 +130,9 @@
 # Other commands
 # EXECUTE|(file name)
 # KEY_POST|(window class name)|(key name)|(ON or OFF for shift-key)|(ON or OFF for ctrl-key)|(On or OFF for alt-key)
+#
+# Additional events (detects touching the screen)
+# MOUSECLICK
+# 
+# Additional commands
+# REMOCON|(number)
