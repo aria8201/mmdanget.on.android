@@ -8,6 +8,11 @@
 1	21	MOUSECLICK				MOTION_ADD|model|action|Motion\mei_surprise\mei_surprise_normal.vmd|PART|ONCE
 21	1	MOTION_EVENT_DELETE|model|action	<eps>
 
+#greeting
+1	51	RECOG_EVENT_STOP|こんにちは		SYNTH_START|model|miku_voice_lat|こんにちは
+51	52	<eps>					MOTION_ADD|model|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
+52	1	MOTION_EVENT_DELETE|model|action	<eps>
+
 #light off
 1	31	RECOG_EVENT_STOP|ライト,オフ		REMOCON|39
 31	32	REMOCON_EVENT_END|model			SYNTH_START|model|miku_voice_lat|ライトを消します。
@@ -19,11 +24,6 @@
 41	42	REMOCON_EVENT_END|model			SYNTH_START|model|miku_voice_lat|ライトをつけます。
 42	43	<eps>					MOTION_ADD|model|action|Motion\miku\point_left.vmd|PART|ONCE
 43	1	MOTION_EVENT_DELETE|model|action	<eps>
-
-#greeting
-1	51	RECOG_EVENT_STOP|こんにちは		SYNTH_START|model|miku_voice_lat|こんにちは
-51	52	<eps>					MOTION_ADD|model|action|Motion\mei_greeting\mei_greeting.vmd|PART|ONCE
-52	1	MOTION_EVENT_DELETE|model|action	<eps>
 
 #tv on
 1	61	RECOG_EVENT_STOP|テレビ,オン		REMOCON|1
