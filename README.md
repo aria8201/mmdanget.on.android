@@ -1,4 +1,4 @@
-MMDAgent on Androicd
+MMDAgent on Android
 ====================
 
 [MMDAgent](http://www.mmdagent.jp/)をAndroid向けに改造し、以下の機能を追加しました。
