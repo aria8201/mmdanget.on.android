@@ -131,8 +131,11 @@
 # EXECUTE|(file name)
 # KEY_POST|(window class name)|(key name)|(ON or OFF for shift-key)|(ON or OFF for ctrl-key)|(On or OFF for alt-key)
 #
-# Additional events (detects touching the screen)
+# Additional events
+# (detects touching the screen)
 # MOUSECLICK
+# (detects the end of REMOCON command)
+# REMOCON_EVENT_END|(model name)
 # 
 # Additional commands
 # REMOCON|(number)
