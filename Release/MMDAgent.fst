@@ -72,8 +72,6 @@
 # Sound
 # SOUND_START|(sound alias)|(sound file name)
 # SOUND_STOP|(sound alias)
-# SOUND_EVENT_START|(sound alias)
-# SOUND_EVENT_STOP|(sound alias)
 #
 # Stage
 # STAGE|(stage file name)
@@ -122,14 +120,6 @@
 # PLUGIN_DISABLE|(plugin name)
 # PLUGIN_EVENT_ENABLE|(plugin name)
 # PLUGIN_EVENT_DISABLE|(plugin name)
-#
-# Other events
-# DRAGANDDROP|(file name)
-# KEY|(key name)
-#
-# Other commands
-# EXECUTE|(file name)
-# KEY_POST|(window class name)|(key name)|(ON or OFF for shift-key)|(ON or OFF for ctrl-key)|(On or OFF for alt-key)
 #
 # Additional events
 # (detects touching the screen)
